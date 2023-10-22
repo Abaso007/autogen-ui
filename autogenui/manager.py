@@ -43,5 +43,4 @@ class Manager(object):
             message=prompt,
         )
 
-        messages = user_proxy.chat_messages[assistant]
-        return messages
+        return user_proxy.chat_messages[assistant]
